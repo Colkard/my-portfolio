@@ -31,7 +31,7 @@ const hardSkills: HardSkill[] = [
   {
     name: 'AstroJs',
     description: 'Static site generator for building modern websites',
-    icon: 'astro_light',
+    icon: 'Astro_light',
   },
   {
     name: 'MongoDB',
