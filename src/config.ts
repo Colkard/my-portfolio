@@ -35,7 +35,7 @@ export const ME = {
     email: 'colkard96@gmail.com',
     linkedin:
       'https://www.linkedin.com/in/alberto-l%C3%B3pez-p%C3%A9rez-b5727bb2/',
-    resumeDoc: 'resume.pdf',
+    resumeDoc: 'enhanced_resume.pdf',
   },
   aboutMe: `I am a software developer with a passion for automation. 
   I have developed several personal projects in this field. 
