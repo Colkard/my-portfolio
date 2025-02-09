@@ -15,7 +15,7 @@ export const SITE = {
 
 export const ME = {
   name: 'Alberto',
-  profession: 'Software Engineer | Full Stack Developer',
+  profession: 'Software Developer | Full Stack Developer',
   profileImage: 'yo.jpg',
   profileFacts: [
     {
@@ -37,7 +37,7 @@ export const ME = {
       'https://www.linkedin.com/in/alberto-l%C3%B3pez-p%C3%A9rez-b5727bb2/',
     resumeDoc: 'resume.pdf',
   },
-  aboutMe: `I am a software engineer with a passion for automation. 
+  aboutMe: `I am a software developer with a passion for automation. 
   I have developed several personal projects in this field. 
   I have created two bots, one for social media automation using Python and another for cryptocurrency trading. 
   Additionally, I developed a web application for my building's community, 

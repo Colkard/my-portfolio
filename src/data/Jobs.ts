@@ -59,7 +59,7 @@ const workExperience: WorkExperience[] = [
     currentJob: true,
   },
   {
-    title: 'Software Engineer',
+    title: 'Software Developer',
     startDate: '2017-02-01',
     endDate: '2017-12-10',
     company: 'Datumize',
