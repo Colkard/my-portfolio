@@ -1,0 +1,128 @@
+---
+title: SocialBot - Automated Content Publishing
+summary: A Python-based bot for automating content posting on Instagram and TikTok, designed for fitness and meme communities. Utilized UIAutomation2 to interact with a physical device, handling real-world automation challenges. Integrated with a Telegram bot for remote control and notifications.
+tags:
+    - Python
+    - Automation
+    - UIAutomation2
+    - Social Media
+    - Bot Development
+    - Telegram API
+startDate: 2023-05-10
+endDate: 2023-08-15
+author: Alberto
+url: https://github.com/Colkard
+cover: './images/bot-rrss/python-bot.png'
+ogImage: './images/bot-rrss/python-bot.png'
+---
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Role](#role)
+3. [Problem](#problem)
+4. [Goal](#goal)
+5. [Solution](#solution)
+    - [Understanding the Challenges](#understanding-the-challenges)
+    - [Core Features](#core-features)
+    - [Development Process](#development-process)
+6. [Telegram Integration](#telegram-integration)
+7. [Testing and Improvements](#testing-and-improvements)
+8. [Challenges and Learnings](#challenges-and-learnings)
+9. [Final Thoughts](#final-thoughts)
+
+---
+
+## Overview
+**SocialBot** is an automated content publishing system built with **Python** to manage social media accounts focused on fitness and memes. Using **UIAutomation2**, the bot interacts with a physical device, handling posting schedules and engagement without human intervention. The project aimed to optimize and simplify content publishing on **Instagram and TikTok**.  
+
+To enhance usability and control, the bot was integrated with a **Telegram bot**, allowing remote configuration, real-time notifications, and status updates from anywhere.
+
+---
+
+## 👨‍💻 Role
+**Lead Developer**
+
+---
+
+## ❓ Problem
+Managing multiple social media accounts manually is time-consuming, and scheduling posts across different platforms requires constant attention. Key challenges included:
+1. The need to automate posting without violating platform restrictions.
+2. Interacting with a physical device instead of relying on APIs, bypassing limitations.
+3. Handling unexpected errors, UI changes, and device-specific issues.
+4. Providing an easy and convenient way to monitor and control the bot remotely.
+
+---
+
+## 🎯 Goal
+1. Develop a bot that can **automate post scheduling** for Instagram and TikTok.
+2. Ensure compatibility with different device screen sizes and UI changes.
+3. Handle interruptions such as app crashes, slow responses, or network issues.
+4. Implement a **Telegram bot** to notify and allow remote control of SocialBot.
+
+---
+
+## ✨ Solution
+
+### Understanding the Challenges
+Unlike API-based automation, this project required **full UI automation** on a physical device, which introduced multiple challenges:
+- **UI changes:** Platforms frequently update their interfaces, requiring adaptable automation.
+- **Performance optimization:** Avoiding detection by simulating human-like interactions.
+- **Error handling:** Implementing recovery mechanisms for failed actions.
+- **Remote Access:** Enabling a way to monitor the bot's status and make adjustments easily.
+
+### Core Features
+1. **Automated Content Posting:** Scheduled uploads for both Instagram and TikTok.
+2. **UI Interaction with Physical Device:** Using **UIAutomation2** to simulate user input on a real phone.
+3. **Error Detection and Recovery:** Implementing retries and error logging to prevent automation failures.
+4. **Multi-Account Management:** Supporting different fitness and meme community profiles.
+5. **Telegram Bot Integration:** Real-time updates and configuration management through a chat interface.
+
+### Development Process
+1. **Backend:** Written in **Python**, using **UIAutomation2** for device interaction.
+2. **Scheduling:** Used a task scheduler to automate posting at optimal engagement times.
+3. **Security Measures:** Mimicked human behavior to reduce the risk of detection.
+4. **Logging and Debugging:** Integrated a monitoring system to track errors and fix UI inconsistencies.
+5. **Telegram API Integration:** Implemented a bot to handle user commands and provide updates.
+
+---
+
+## 🤖 Telegram Integration
+To improve usability, **a Telegram bot was developed** to provide:
+- **Real-time notifications** on successful or failed posts.
+- **Status updates** on the bot’s activity, including pending and completed tasks.
+- **Remote configuration**, allowing users to change posting schedules, add new content, or pause/resume automation.
+- **Error alerts**, notifying the user in case of crashes or API restrictions.
+
+Users can interact with the bot via simple commands:
+- `/status` → Get the current status of SocialBot.
+- `/schedule` → View or update the posting schedule.
+- `/pause` → Temporarily stop the bot.
+- `/resume` → Resume automation.
+- `/logs` → Retrieve recent activity logs.
+
+---
+
+## 🧪 Testing and Improvements
+Through multiple test cycles, key improvements were made:
+- **Error handling optimization:** Reduced failure rate by improving retry logic.
+- **UI adaptability:** Adjusted automation to work across different screen resolutions.
+- **Stability improvements:** Reduced unexpected crashes by refining interaction timing.
+- **Enhanced Telegram Integration:** Added quick response commands for smoother bot control.
+
+---
+
+## ⚙️ Challenges and Learnings
+1. **Device-Specific Automation:** UIAutomation2 behavior varied depending on phone model and OS version.
+2. **Adapting to Platform Updates:** Frequent UI changes required continuous script adjustments.
+3. **Balancing Speed and Human-Like Behavior:** Too fast raised detection risks, too slow reduced efficiency.
+4. **Handling Telegram Requests Efficiently:** Ensuring real-time communication without overwhelming the server.
+
+---
+
+## ✨ Final Thoughts
+1. **UI-based automation is powerful but fragile:** Regular maintenance is essential.  
+2. **Telegram integration significantly improves usability:** Remote monitoring and configuration make the bot far more practical.  
+3. **Understanding platform rules is crucial:** Avoiding detection ensures long-term success.  
+4. **Scalability requires continuous optimization:** Future improvements could include AI-based UI detection for adaptability.  
+
+---

@@ -13,14 +13,14 @@
  * @property {boolean} currentJob - Indicates whether the position is the current job.
  */
 interface WorkExperience {
-    title: string;
-    startDate: string;
-    endDate?: string;
-    company: string;
-    location: string;
-    description: string;
-    goals: string[];
-    currentJob: boolean;
+  title: string
+  startDate: string
+  endDate?: string
+  company: string
+  location: string
+  description: string
+  goals: string[]
+  currentJob: boolean
 }
 
 /**
@@ -42,33 +42,35 @@ interface WorkExperience {
  * @property {Array<string>} goals - A list of goals or achievements within the job.
  * @property {boolean} currentJob - A flag indicating if the job is the current one.
  */
-const workExperience:WorkExperience[] = [
-    {
-        title: "Frontend Developer",
-        startDate: "2020-03-10",
-        company: "Google Inc",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
-        goals: [
-            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-            "Created and maintained web applications using React, NodeJs, and MongoDB.",
-        ],
-        currentJob: true,
-    },
-    {
-        title: "Software Engineer",
-        startDate: "2018-03-10",
-        endDate: "2020-03-10",
-        company: "Company Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-        goals: [
-            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-            "Created and maintained web applications using React, NodeJs, and MongoDB.",
-        ],
-        currentJob: false,
-    },
-];
-export default workExperience;
+const workExperience: WorkExperience[] = [
+  {
+    title: 'Frontend Developer',
+    startDate: '2018-05-10',
+    company: 'Accenture',
+    location: 'Spain / Remote',
+    description:
+      'Developed and maintained web applications using NodeJs, Vue, Angular, React and Tailwind CSS.',
+    goals: [
+      'Developed and maintained web applications using NodeJs, Vue, Angular, React, MongoDB and Tailwind CSS.',
+      'Worked with several teams with Agile methodologies to deliver high-quality software products.',
+      `I've worked with clients to understand their needs and turn them into practical solutions.`,
+      `I've estimated project timelines and effort to help plan work more effectively.`,
+    ],
+    currentJob: true,
+  },
+  {
+    title: 'Software Engineer',
+    startDate: '2017-02-01',
+    endDate: '2017-12-10',
+    company: 'Datumize',
+    location: 'Spain',
+    description:
+      'Worked on a data collection project using web scraping with Python, storing the gathered data in MySQL and building the front-end with Angular.',
+    goals: [
+      'Worked on a data collection project using web scraping with Python, storing the gathered data in MySQL and building the front-end with Angular.',
+      'Followed Scrum methodology, which helped me improve my workflow and start applying software development best practices, including design patterns.',
+    ],
+    currentJob: false,
+  },
+]
+export default workExperience
