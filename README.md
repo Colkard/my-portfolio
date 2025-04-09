@@ -12,7 +12,7 @@ This project leverages **Astro v5**, incorporating the latest features that Astr
 
 ## 🔥 DEMO
 
-- [VIEW DEMO](https://simple-portfolio.vicbox.dev)
+- [VIEW DEMO](https://albertolp.com)
 
 ### Features
 **Now upgraded to Astro v5**: the latest release of Astro.
@@ -127,8 +127,8 @@ table explaining the properties of each object:
 
 ```typescript
 export const SITE = {
-    website: "https://vicbox.dev/projects/simple-portfolio", // replace this with your deployed domain
-    title: "Simple Portfolio",
+    website: "https://albertolp.com",
+    title: "AlbertoLP Portfolio",
     description: "A simple but beautiful portfolio created with Astro",
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
